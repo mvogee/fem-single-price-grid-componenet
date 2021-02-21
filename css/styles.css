@@ -1,11 +1,96 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
+  height: 100vh;
   background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+}
+
+h2, h3 {
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+li {
+  line-height: 20px;
+  list-style: none;
+  font-weight: lighter;
+}
+
+p {
+  line-leight: 1.8em;
+}
+
+/* wrapper level componenets */
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#single-price-grid-component {
+  max-width: 800px;
+  margin: 15% 7%;
+}
+
+/* class level componenets */
+
+.content-box {
+  padding: 5% 8%;
+  color: #FFF;
+}
+
+.dollar-ammount {
+  font-weight: 700;
+  font-size: 35px;
+  margin-right: 5px;
+}
+
+/* first block */
+
+.header-container {
+  background-color: #ffffff;
+  border-radius: 5px 5px 0 0;
+  color: rgb(153, 153, 153);
+  line-height: 1.5em;
+}
+
+.header-container h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+.header-container h3 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 25px;
 }
 
 
+/* sign up block  */
 
+.subscription-container {
+  background-color: hsl(179, 62%, 43%);
+}
 
+.sign-up-button {
+  background-color: hsl(71, 73%, 54%);
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+  height: 35px;
+  margin: 20px 0; 
+}
+
+/* third block */
+
+.why-us-container {
+  background-color: hsl(179, 62%, 60%);
+}
 
 .attribution {
   font-size: 11px; text-align: center;
